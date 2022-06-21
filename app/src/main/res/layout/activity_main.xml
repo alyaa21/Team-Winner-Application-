@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="@drawable/play"
+    tools:context=".MainActivity"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team A"
+        android:layout_margin="10dp"
+        android:textSize="40sp" />
+        <TextView
+            android:id="@+id/display_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_margin="10dp"
+            android:textSize="40sp" />
+        <Button
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="+3 Points"
+            android:background="#F44336"
+            android:id="@+id/A_3"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+            android:text="+2 Points"
+            android:id="@+id/A_2"
+            android:background="#F44336"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Free throw"
+            android:id="@+id/A_1"
+            android:background="#F44336"
+            android:textColor="#000000"
+            />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team B"
+            android:layout_margin="10dp"
+            android:textSize="40sp" />
+        <TextView
+            android:id="@+id/display_text_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_margin="10dp"
+            android:textSize="40sp" />
+        <Button
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="+3 Points"
+            android:id="@+id/B_3"
+            android:background="#F44336"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="+2 Points"
+            android:id="@+id/B_2"
+            android:background="#F44336"
+            android:textColor="#000000"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Free throw"
+            android:id="@+id/B_1"
+            android:background="#F44336"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+       android:layout_marginLeft="150dp"
+        android:text="Reset"
+        android:id="@+id/reset_button"
+        android:background="#F44336"
+        android:textColor="#000000"
+        />
+
+
+
+</LinearLayout>
+
